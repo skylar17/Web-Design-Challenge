@@ -1,5 +1,5 @@
 body{
-    background-color: lightgray; 
+    background-color: lightgray !important; 
 }
 
 
@@ -21,6 +21,12 @@ body{
     background-color: whitesmoke; 
     font-size: 16px; 
     /* font-weight: bold; */
+}
+
+.navigation a{
+    color:gray;
+    text-decoration: none;
+    background-color: transparent;
 }
 
 /* --------------------------------------------------------------------- */
@@ -57,9 +63,9 @@ p{
 .box {
     margin-top: 55px; 
     margin-bottom: 55px; 
-    padding: 10px 40px 15px; 
-    color:black;
-    background-color: white; 
+    padding: 10px 40px 15px;
+    color:black !important;
+    background-color: white !important; 
 
   }
 /* Table */
@@ -72,8 +78,20 @@ p{
 
 /* Media Queries */
 @media(max-width: 992px){
+
+.col-md-6 {
+    float: left;
+}
+
+.col-md-6 .box{
+    padding: 5px 5px;
+    border-width: 0px;
+    margin-top: 1px ;
+    margin-right: 1px;
+}
+
 .navigation .navbar-expand-lg{
-background-color:lightseagreen !important;
+    background-color:lightseagreen !important;
 }
 
 .navbar{
@@ -93,3 +111,5 @@ background-color:lightseagreen !important;
 button{
     margin-right: 10px;
 }
+
+/* -------------------------------------------------------------- */
