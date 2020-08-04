@@ -23,8 +23,8 @@ body{
     /* font-weight: bold; */
 }
 
-.navigation a{
-    color:gray;
+.navigation .a{
+    color:gray !important;
     text-decoration: none;
     background-color: transparent;
 }
